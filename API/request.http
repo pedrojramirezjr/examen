@@ -1,0 +1,31 @@
+###
+GET http://localhost:3000/api HTTP/1.1
+
+###
+POST http://localhost:3000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Lo balacearon los municipales",
+    "contenido": "El individuo fue baleado por la policía municipal en un enfrentamiento ocurrido anoche en el centro de la ciudad. Según las autoridades, el sospechoso se resistió al arresto y abrió fuego contra los agentes, lo que llevó a un intercambio de disparos en el que resultó herido. Los paramédicos llegaron al lugar y lo trasladaron al hospital más cercano, donde se encuentra en estado crítico. La investigación sobre el incidente está en curso y se están revisando las cámaras de seguridad para determinar las circunstancias exactas del tiroteo.",
+    "fecha_publicacion": "2023-11-07",
+    "autor": "Nombre del Autor",
+    "categoria": "Sucesos",
+    "imagen_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn2.excelsior.com.mx%2Fmedia%2Fstyles%2Fimage800x600%2Fpublic%2Fpictures%2F2023%2F08%2F16%2F2993125.jpg&tbnid=S3ZMij8Am8yiMM&vet=12ahUKEwjPs93R7rKCAxX-MN4AHXfNDEAQMygBegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.excelsior.com.mx%2Fcomunidad%2Fa-proceso-policias-municipales-que-balearon-a-pasajeros-de-vehiculo-en-aicm%2F1603679&docid=4TKgzTtnRsA9WM&w=800&h=600&q=policias%20balearon&ved=2ahUKEwjPs93R7rKCAxX-MN4AHXfNDEAQMygBegQIARBZ"
+}
+
+###
+DELETE http://localhost:3000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Perro salva la vida a niño de un leon",
+    "contenido": "Un valiente perro se convirtió en el héroe inesperado de un niño cuando se enfrentó a un león que se aproximaba peligrosamente. El incidente ocurrió en el safari local cuando la familia del niño estaba observando a los leones en su entorno natural. De repente, uno de los leones se acercó al niño, pero el perro de la familia, de nombre Rocky, saltó valientemente entre el león y el niño, ahuyentando al depredador. La familia y el niño están agradecidos por el coraje de su leal amigo canino.",
+    "fecha_publicacion": "2023-11-07",
+    "autor": "Juan Pérez",
+    "categoria": "Noticias de Animales",
+    "imagen_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.eltiempo.com%2Ffiles%2Fimage_950_534%2Fuploads%2F2021%2F01%2F13%2F5fff29c3ac033.jpeg&tbnid=XEmsmv0PO9o3BM&vet=12ahUKEwjbh6Ho8bKCAxXtCUQIHc1dBKQQMygAegQIARBP..i&imgrefurl=https%3A%2F%2Fwww.eltiempo.com%2Fcultura%2Fgente%2Fun-perro-vence-a-un-leon-durante-una-pelea-en-india-560323&docid=n2h6CIASS8EvsM&w=950&h=534&q=perro%20vence%20leon&ved=2ahUKEwjbh6Ho8bKCAxXtCUQIHc1dBKQQMygAegQIARBP"
+}
